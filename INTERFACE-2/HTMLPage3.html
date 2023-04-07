@@ -1,0 +1,321 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Round Corner Squares Website</title>
+	<style>
+
+		#boooo {
+			margin: 0;
+			padding: 0;
+			height: 100vh;
+			display: flex;
+			flex-wrap: wrap;
+			clear:both;
+
+
+		}
+
+        .square-container {
+            position: relative;
+            height: 80%;
+            flex: 1;
+            display: flex;
+            background-color: #eee;
+            box-sizing: border-box;
+            padding: 0px;
+            border: 1px solid #ccc;
+            margin: 20px;
+            border-radius: 20px;
+        }
+
+        #content {
+            background-color: white;
+            font-size: 40px;
+            text-align: center;
+        }
+        #sd1 {
+            background-color: white;
+            height: 100px;
+            width: 100%;
+            border-radius: 20px 20px 0px 0px;
+            margin: 0px;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .square {
+            position: absolute;
+            background-color: #ccc;
+            border-radius: 10px;
+            transition: transform 0.2s ease-out; /* added ease-out timing function */
+            transform-origin: center; /* set transform origin to center of square */
+        }
+        p {
+            font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+        }
+        .pc{
+            margin-top:10%;
+        }
+
+
+
+			.square:nth-child(2) {
+				width: 200px;
+				height: 200px;
+				top: 60%;
+				left: 10%;
+
+			}
+
+			.square:nth-child(3) {
+				width: 150px;
+				height: 150px;
+				top: 20%;
+				left: 20%;
+
+			}
+
+			.square:nth-child(4) {
+				width: 100px;
+				height: 100px;
+				top: 80%;
+				left: 30%;
+
+			}
+
+			.square:nth-child(5) {
+				width: 50px;
+				height: 50px;
+				top: 40%;
+				left: 30%;
+
+			}
+
+			.square:nth-child(6) {
+				width: 120px;
+				height: 120px;
+				top: 30%;
+				left: 50%;
+
+			}
+
+			.square:nth-child(7) {
+				width: 80px;
+				height: 80px;
+				top: 70%;
+				left: 70%;
+
+			}
+
+			.square:nth-child(8) {
+				width: 200px;
+				height: 200px;
+				top: 78%;
+				left: 80%;
+;
+			}
+
+			.square:nth-child(9) {
+				width: 270px;
+				height: 270px;
+				top: 20%;
+				left: 80%;
+
+			}
+
+			.square:nth-child(10) {
+				width: 400px;
+				height: 400px;
+				top: 50%;
+				left: 50%;
+
+			}
+
+        .right-column {
+            padding: 0px;
+            height: 80%;
+            flex: 0.5;
+            background-color: white;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            margin: 20px;
+            border-radius: 20px;
+            
+        }
+        .square:hover {
+            transform: scale(1.1); /* change scale value to 1.5 for 150% increase in size */
+        }
+
+        #phead{
+            font-size:60px;
+            
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0px;
+			clear:both;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #eee;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+       button.active {
+                background-color: #0077cc;
+                color: #fff;
+       }
+
+
+        #button {
+            width: 100%;
+            background-color: white;
+            height: 200px;
+            font-size: 40px;
+            text-align: center;
+            width: 100%;
+            border-radius: 20px 20px 0px 0px;
+            margin: 0px;
+        }	
+	</style>
+</head>
+<body>
+
+    <div id="boooo">
+
+
+        <div class="square-container">
+            <div id="button">
+                <p class="p0">Sandbox View</p>
+                <hr />
+                <div class="button-container">
+                    <button id="day" onclick="funbut1()"> Day</button>
+                    <button id="month" onclick="funbut2()">Month</button>
+                    <button id="year" class="active">Year</button>
+                </div>
+            </div>
+
+
+            <img onclick="fun0()" src="pic\下載.jpg" class="square" />
+            <img onclick="fun1()" id="img1" src="pic\3.jpg" class="square" />
+            <img onclick="fun2()" src="pic\rrgyzeu7ucbf5styxkuw.png" class="square" />
+            <img onclick="fun3()" src="pic\2.jpg" class="square" />
+            <img onclick="fun4()" src="pic\1.jpg" class="square" />
+            <img onclick="fun5()" src="pic\7.jpg" class="square" />
+            <img onclick="fun6()" src="pic\4.jpg" class="square" />
+            <img onclick="fun7()" src="pic\5.png" class="square" />
+            <img onclick="fun8()" src="pic\6.jpg" class="square" />
+            <div class="v"></div>
+
+        </div>
+        <div class="right-column">
+
+
+            <p id="sd1">User view</p>
+
+
+            <div id="content">
+                <p id="phead">Top Albums</p>
+                <p class="pc" id="p1">No.1: ADELE 21 (Adele)</p>
+                <p class="pc" id="p2">No.2: Nevermind (Nirvana) </p>
+                <p class="pc" id="p3">No.3: Random Access Memory (Draft Punk) </p>
+                <p class="pc" id="p4">No.4: Igor (Tyler, The Creator) </p>
+                <p class="pc" id="p5">No.5: Abbey Road (Beatles) </p>
+            </div>
+
+        </div>
+    </div>
+    <script>
+
+        function fun0() {
+            document.getElementById("phead").innerHTML = "TOP LISTENERS";
+            document.getElementById("p1").innerHTML = "No.1 aaaa";
+            document.getElementById("p2").innerHTML = "No.2 bbb";
+            document.getElementById("p3").innerHTML = "No.3 ccc";
+            document.getElementById("p4").innerHTML = "No.4 ddd";
+            document.getElementById("p5").innerHTML = "No.5 eee";
+        }
+        function fun1() {
+            document.getElementById("phead").innerHTML = "TOP LISTENERS";
+            document.getElementById("p1").innerHTML = "No.1 Josiah Har";
+            document.getElementById("p2").innerHTML = "No.2 Sam Smith";
+            document.getElementById("p3").innerHTML = "No.3 James Bond";
+            document.getElementById("p4").innerHTML = "No.4 Ramandeep";
+            document.getElementById("p5").innerHTML = "No.5 Jesus Crist";
+        }
+        function fun2() {
+            document.getElementById("phead").innerHTML = "TOP LISTENERS";
+            document.getElementById("p1").innerHTML = "No.1 a";
+            document.getElementById("p2").innerHTML = "No.2 b";
+            document.getElementById("p3").innerHTML = "No.3 c";
+            document.getElementById("p4").innerHTML = "No.4 d";
+            document.getElementById("p5").innerHTML = "No.5 e";
+        }
+        function fun3() {
+            document.getElementById("phead").innerHTML = "TOP LISTENERS";
+            document.getElementById("p1").innerHTML = "No.1 aa";
+            document.getElementById("p2").innerHTML = "No.2 bb";
+            document.getElementById("p3").innerHTML = "No.3 cc";
+            document.getElementById("p4").innerHTML = "No.4 dd";
+            document.getElementById("p5").innerHTML = "No.5 ee";
+        }
+        function fun4() {
+            document.getElementById("phead").innerHTML = "TOP LISTENERS";
+            document.getElementById("p1").innerHTML = "No.1 aaa";
+            document.getElementById("p2").innerHTML = "No.2 bbb";
+            document.getElementById("p3").innerHTML = "No.3 ccc";
+            document.getElementById("p4").innerHTML = "No.4 ddd";
+            document.getElementById("p5").innerHTML = "No.5 eee";
+        }
+        function fun5() {
+            document.getElementById("phead").innerHTML = "TOP LISTENERS";
+            document.getElementById("p1").innerHTML = "No.1 aaaaa";
+            document.getElementById("p2").innerHTML = "No.2 bbbbb";
+            document.getElementById("p3").innerHTML = "No.3 ccccc";
+            document.getElementById("p4").innerHTML = "No.4 ddddd";
+            document.getElementById("p5").innerHTML = "No.5 eeeee";
+        }
+        function fun6() {
+            document.getElementById("phead").innerHTML = "TOP LISTENERS";
+            document.getElementById("p1").innerHTML = "No.1 A";
+            document.getElementById("p2").innerHTML = "No.2 B";
+            document.getElementById("p3").innerHTML = "No.3 C";
+            document.getElementById("p4").innerHTML = "No.4 D";
+            document.getElementById("p5").innerHTML = "No.5 E";
+        }
+        function fun7() {
+            document.getElementById("phead").innerHTML = "TOP LISTENERS";
+            document.getElementById("p1").innerHTML = "No.1 AA";
+            document.getElementById("p2").innerHTML = "No.2 BB";
+            document.getElementById("p3").innerHTML = "No.3 CC";
+            document.getElementById("p4").innerHTML = "No.4 DD";
+            document.getElementById("p5").innerHTML = "No.5 EE";
+        }
+        function fun8() {
+            document.getElementById("phead").innerHTML = "TOP LISTENERS";
+            document.getElementById("p1").innerHTML = "No.1 AAA";
+            document.getElementById("p2").innerHTML = "No.2 BBB";
+            document.getElementById("p3").innerHTML = "No.3 CCC";
+            document.getElementById("p4").innerHTML = "No.4 DDD";
+            document.getElementById("p5").innerHTML = "No.5 EEE";
+        }
+        function funbut1() {
+            location.href = "Home.html";
+        }
+        function funbut2() {
+            location.href = "HTMLPage2.html";
+        }
+    </script>
+
+</body>
+</html>

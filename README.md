@@ -21,3 +21,6 @@ Source Code and UI/UX
 # To access the main interface please open the "Home.html" file using an appropriate browser
 # To view the source code for these files, please open "Home.html", "HTMLPage2.html", "HTMLPage3.html" using an appropriate code editor or IDE.
 
+
+# UI-UX IMAGES
+# UI-UX images can be accessed via the UIUX directory.

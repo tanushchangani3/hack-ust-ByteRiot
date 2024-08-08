@@ -1,5 +1,5 @@
 # hackUST - ByteRiot
-Source Code and UI/UX 
+Source Code and UI/UX for hackUST (The Hong Kong University of Science and Technology hackathon)
 
 # INTERFACE 1
 ## Below explains the details for accessing the code for Interface 1

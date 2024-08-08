@@ -12,15 +12,15 @@ The files used to build up the prototype is stored under src folder(the uploaded
 
 
 # INTERFACE 2
-# Below will explain the details for accessing the code for Interface 2
-# To access the Interface 2 code files please navigate to INTERFACE-2 directory.
-# The INTERFACE-2 Directory consists of 3 files namely:
-# Home.html
-# HTMLPage2.html
-# HTMLPage3.html
-# To access the main interface please open the "Home.html" file using an appropriate browser
-# To view the source code for these files, please open "Home.html", "HTMLPage2.html", "HTMLPage3.html" using an appropriate code editor or IDE.
+## Below will explain the details for accessing the code for Interface 2
+## To access the Interface 2 code files please navigate to INTERFACE-2 directory.
+The INTERFACE-2 Directory consists of 3 files namely:
+- Home.html
+- HTMLPage2.html
+- HTMLPage3.html
+To access the main interface please open the "Home.html" file using an appropriate browser
+To view the source code for these files, please open "Home.html", "HTMLPage2.html", "HTMLPage3.html" using an appropriate code editor or IDE.
 
 
 # UI-UX IMAGES
-# UI-UX images can be accessed via the UIUX directory.
+## UI-UX images can be accessed via the UIUX directory.

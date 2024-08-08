@@ -1,14 +1,14 @@
-# hack-ust-ByteRiot
+# hackUST - ByteRiot
 Source Code and UI/UX 
 
 # INTERFACE 1
-# Below will explain the details for accessing the code for Interface 1
-# to access the code for the Interface 1 please navigate to the INTERFACE-1 Directory
-## Introduction for Interface 1
-### A React project is used to build up the prototype of the interface. Due to the limitations of file size, only the src folder containing the core codes are uploaded.
-### The program as a whole could be started with typing the command ‘npm start’ in the terminal (need to set up node js environment first).
+## Below explains the details for accessing the code for Interface 1
+## To access the code for the Interface 1 please navigate to the INTERFACE-1 Directory
+Introduction for Interface 1
+A React project is used to build up the prototype of the interface. Due to the limitations of file size, only the src folder containing the core codes are uploaded.
+The program as a whole could be started with typing the command ‘npm start’ in the terminal (need to set up node js environment first).
 ## Breakdown
-### The files used to build up the prototype is stored under src folder(the uploaded folder). The index.js is used to set up a environment, the App.tsx is to indicate the interface, the Sandbox view and the User view, and each music play card is indicated in the musicF.js and is maped by the information in the info.json.
+The files used to build up the prototype is stored under src folder(the uploaded folder). The index.js is used to set up a environment, the App.tsx is to indicate the interface, the Sandbox view and the User view, and each music play card is indicated in the musicF.js and is maped by the information in the info.json.
 
 
 # INTERFACE 2
